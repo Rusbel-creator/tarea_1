@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de estudiantes</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <h1>Registro de estudiantes</h1>
+
+        <form class="form__container">
+
+            <div>
+                <input type="text" class="form-item" placeholder="Nombre" required>
+            </div>
+            <div>
+                <textarea class="form-item" rows="1" placeholder="Dirección" required></textarea>
+            </div>
+            <div>
+                <input type="tel" class="form-item" placeholder="Teléfono" required>
+            </div>
+            <div>
+                <input type="number" class="form-item" placeholder="Edad" required>
+            </div>
+            <div>
+                <input type="email" class="form-item" placeholder="Gmail" required>
+            </div>
+
+            <h4>Genero</h4>
+            <div>
+                <select class="form-item" required>
+                    <option>ninguno</option>
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                </select>
+            </div>
+
+            <h4>Area tecnica</h4>
+            <div>
+                <select class="form-item" required>
+                    <option>ninguna</option>
+                    <option>Enfermeria</option>
+                    <option>Gastronomia</option>
+                    <option>Contabilidad</option>
+                    <option>Informatica</option>
+                    <option>Electricidad</option>
+                </select>
+            </div>
+
+            <h4>Curso</h4>
+            <input type="radio">4to
+            <input type="radio">5to
+            <input type="radio">6to
+
+            <button type="submit">Registrarse</button>
+
+        </form>
+
+</body>
+</html>
